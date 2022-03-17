@@ -66,7 +66,18 @@ p {
     background-position: center;
 }
 
-.search-engine-optimization {
+/* Condensed individual classes into one overall ".main-section-content" class */
+
+.main-section-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -91,7 +102,27 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+} */
+
+/* Consolidated separate classes into one .main-section-content h2 selector */
+.main-section-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+/* .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
 
 .float-left {
     float: left;
@@ -116,7 +147,13 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Consolidated separate .benefit-xxx classes into one .benefit-aside-style class */
+.benefit-aside-style {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -129,9 +166,34 @@ aside {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+} */
+
+/* Applied consolidated .benefit-aside-style class to img tag styling*/
+.benefit-aside-style img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-/* Consolidated separated h3 selectors under one selector */
+/* .benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+
+/* Consolidated separated h3 selectors under one tag selector */
 
 h3 {
     margin-bottom: 10px;
@@ -153,27 +215,11 @@ h3 {
     text-align: center;
 } */
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* Consolidated separate classes into one .main-section-content img selector */
+.main-section-content img {
+    max-height: 200px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -183,22 +229,9 @@ h3 {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* Changed css class ".footer" to semantic HTML tag "footer" */
 footer {
